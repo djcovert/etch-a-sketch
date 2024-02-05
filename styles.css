@@ -3,9 +3,11 @@ html body {
   height: 100vh;
   margin: 0px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
+  background-color: green;
 }
   
 h2 {
@@ -14,20 +16,14 @@ h2 {
 
 #container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   width: 800px;
   height: 800px;
   background-color: blue;
 }
 
-div {
+.pixel {
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
-  height: 200px;
-  gap: 0px;
-  margin: 0px;
-  padding: 0px;
   background-color: red;
 } 
